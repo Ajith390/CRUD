@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { connectDB, pool } from "./databaseConnection.js";
+import { connectDB, pool } from "./db.js";
 
 const app = express();
 
